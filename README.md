@@ -1,9 +1,9 @@
 # WebServiceGlashfishRPL
 
-Request=>
-[GET]
+### Reques[GET]
 http://localhost:8080/api/resources/cur_harga
-Response =>
+
+```
 [{
 	"kode": "DAY",
 	"nama": "Daging Ayam",
@@ -29,12 +29,12 @@ Response =>
 	"satuan": "kg",
 	"harga": 25000.0
 }]
+```
 
-/////////////////////////////SPECIFIC DATA //////////////////////////////////////////////
-Req[GET]
+# SPECIFIC DATA
+### Req[GET]
 http://localhost:8080/api/resources/cur_harga?kode_barang=DAY
-
-Res
+```
 {
 	"kode": "DAY",
 	"nama": "Daging Ayam",
@@ -42,12 +42,11 @@ Res
 	"satuan": "kg",
 	"harga": 20000.0
 }
+```
 
-
-/////////////////////////////////////////////
-Req[GET]
+### Req[GET]
 http://localhost:8080/api/resources/history_harga?kode_barang=DAY
-Res
+```
 {
 	"kode": "DAY",
 	"nama": "Daging Ayam",
@@ -60,9 +59,6 @@ Res
 		"tgl": "2018-05-21 09:08:49.0"
 	}]
 }
-
-///////////////////////////////////////////////////////////////////////////
-
-
+```
 
 
