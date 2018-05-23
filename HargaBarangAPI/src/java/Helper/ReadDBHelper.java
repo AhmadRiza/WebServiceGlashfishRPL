@@ -10,7 +10,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -21,14 +20,13 @@ import java.util.logging.Logger;
  *
  * @author Ahmad Riza
  */
-public class DbHelper extends MysqlConnection{
+public class ReadDBHelper extends MysqlConnection{
 
     Statement stat;
-    PreparedStatement preStat;
     ResultSet result;
     String query, message;
 
-    public DbHelper() {
+    public ReadDBHelper() {
         super();
     }
 
@@ -40,7 +38,7 @@ public class DbHelper extends MysqlConnection{
             if(stat!=null)stat.close();
           
         } catch (SQLException ex) {
-            Logger.getLogger(DbHelper.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ReadDBHelper.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -64,7 +62,7 @@ public class DbHelper extends MysqlConnection{
                     return gb.toJson(b).toString();
                 }
             } catch (SQLException ex) {
-                Logger.getLogger(DbHelper.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(ReadDBHelper.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
 
@@ -105,7 +103,7 @@ public class DbHelper extends MysqlConnection{
 
             return response.toString();
         } catch (SQLException ex) {
-            Logger.getLogger(DbHelper.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ReadDBHelper.class.getName()).log(Level.SEVERE, null, ex);
             return "error";
         }
     }
@@ -155,7 +153,7 @@ public class DbHelper extends MysqlConnection{
 
             }
         } catch (SQLException ex) {
-            Logger.getLogger(DbHelper.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ReadDBHelper.class.getName()).log(Level.SEVERE, null, ex);
         }
         jsonResult = gsonBuilder.toJson(listBarang);
 

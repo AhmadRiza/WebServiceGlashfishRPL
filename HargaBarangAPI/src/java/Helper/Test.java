@@ -11,12 +11,12 @@ package Helper;
  */
 public class Test {
     public static void main(String[] args) {
-        DbHelper db = new DbHelper();
+        InsertDBHelper db = new InsertDBHelper();
 //        if(db.getCurrentHarga())
 //            System.out.println(db.getResultJSON());
 //        else
 //            System.out.println(db.message);
-        System.out.println(db.getCurrentHarga("DAY"));
+        System.out.println(db.insertHarga("TMP","12000"));
     }
 
 }

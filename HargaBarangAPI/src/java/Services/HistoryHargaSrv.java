@@ -1,7 +1,7 @@
 
 package Services;
 
-import Helper.DbHelper;
+import Helper.ReadDBHelper;
 import javax.ws.rs.DefaultValue;
 import javax.ws.rs.Path;
 import javax.ws.rs.GET;
@@ -21,11 +21,11 @@ public class HistoryHargaSrv {
     @Context
     private UriInfo context;
 
-    private DbHelper db ;
+    private ReadDBHelper db ;
 
     /** Creates a new instance of HelloWorldResource */
     public HistoryHargaSrv() {
-        db = new DbHelper();
+        db = new ReadDBHelper();
     }
 
     @GET

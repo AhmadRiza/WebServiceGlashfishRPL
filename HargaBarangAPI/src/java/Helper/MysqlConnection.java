@@ -46,6 +46,7 @@ public class MysqlConnection {
         try {
             if (connect != null) {
                 connect.close();
+                connect = null;
             }
         } catch (Exception e) {
 
