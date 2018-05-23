@@ -64,26 +64,32 @@ http://localhost:8080/api/resources/history_harga?kode_barang=DAY
 ## INSERT BARANG
 [POST] 
 http://localhost:8080/api/resources/add_barang
+
 ```
 form param
 kode = string
 nama = string
 satuan = string
 ```
+
 Res
+
 ```
 success
-``
+```
 
 ## INSERT HARGA
 [POST] 
 http://localhost:8080/api/resources/add_harga
+
 ```
 form param
 kode = string
 harga = string
 ```
+
 Res
+
 ```
 success
 ```
