@@ -5,20 +5,70 @@ http://localhost:8080/api/resources/dashboard
 
 ```
 [{
+	"kode": "BWP",
+	"nama": "Bawang Putih",
+	"jumlah": 150,
+	"harga": 150000.0
+}, {
+	"kode": "CAB",
+	"nama": "Cabai",
+	"jumlah": 100,
+	"harga": 50000.0
+}, {
 	"kode": "DAY",
 	"nama": "Daging Ayam",
 	"jumlah": 100,
 	"harga": 75000.0
 }, {
-	"kode": "kaget",
-	"nama": "tidak kaget",
-	"jumlah": 180,
-	"harga": 1091.0
+	"kode": "GRN",
+	"nama": "Garam",
+	"jumlah": 150,
+	"harga": 30000.0
 }, {
-	"kode": "TST2",
-	"nama": "Test 2",
-	"jumlah": 110,
-	"harga": 19900.0
+	"kode": "HOK",
+	"nama": "Bawang Merah",
+	"jumlah": 100,
+	"harga": 100000.0
+}, {
+	"kode": "LSP",
+	"nama": "Laos",
+	"jumlah": 75,
+	"harga": 30000.0
+}, {
+	"kode": "MTN",
+	"nama": "Mentimun",
+	"jumlah": 100,
+	"harga": 78000.0
+}, {
+	"kode": "PRT",
+	"nama": "Minyak Goreng",
+	"jumlah": 20,
+	"harga": 50000.0
+}, {
+	"kode": "ROT",
+	"nama": "Tepung",
+	"jumlah": 600,
+	"harga": 45000.0
+}, {
+	"kode": "SJK",
+	"nama": "Sajiku",
+	"jumlah": 100,
+	"harga": 30000.0
+}, {
+	"kode": "SLD",
+	"nama": "Selada",
+	"jumlah": 140,
+	"harga": 65000.0
+}, {
+	"kode": "TFP",
+	"nama": "Ketumbar",
+	"jumlah": 70,
+	"harga": 80000.0
+}, {
+	"kode": "UNS",
+	"nama": "Merica",
+	"jumlah": 100,
+	"harga": 70000.0
 }]
 ```
 
