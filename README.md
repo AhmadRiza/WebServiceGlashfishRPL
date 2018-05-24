@@ -1,33 +1,24 @@
 # WebServiceGlashfishRPL
 
 ### Reques[GET]
-http://localhost:8080/api/resources/cur_harga
+http://localhost:8080/api/resources/dashboard
 
 ```
 [{
 	"kode": "DAY",
 	"nama": "Daging Ayam",
-	"tgl": "2018-05-21 09:08:49.0",
-	"satuan": "kg",
-	"harga": 20000.0
+	"jumlah": 100,
+	"harga": 75000.0
 }, {
-	"kode": "TMP",
-	"nama": "Tempe",
-	"tgl": "2018-05-21 09:05:25.0",
-	"satuan": "kg",
-	"harga": 10000.0
+	"kode": "kaget",
+	"nama": "tidak kaget",
+	"jumlah": 180,
+	"harga": 1091.0
 }, {
-	"kode": "THU",
-	"nama": "Tahu",
-	"tgl": "2018-05-21 09:05:13.0", 
-	"satuan": "kg",
-	"harga": 10000.0
-}, {
-	"kode": "CBE",
-	"nama": "Cabe",
-	"tgl": "2018-05-21 09:04:27.0",
-	"satuan": "kg",
-	"harga": 25000.0
+	"kode": "TST2",
+	"nama": "Test 2",
+	"jumlah": 110,
+	"harga": 19900.0
 }]
 ```
 
